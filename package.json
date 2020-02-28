@@ -29,5 +29,16 @@
   "dependencies": {},
   "standard": {
     "parser": "babel-eslint"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rocksfenix/react-potrace.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rocksfenix/react-potrace/issues"
+  },
+  "homepage": "https://github.com/rocksfenix/react-potrace#readme"
 }
