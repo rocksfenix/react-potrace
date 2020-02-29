@@ -1,4 +1,5 @@
+demo-page
 src
-demo
 .babelrc
 webpack.config.js
+NOTES.md
