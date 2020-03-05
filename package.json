@@ -1,11 +1,11 @@
 {
   "name": "react-potrace",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Build",
   "main": "lib/index.js",
   "scripts": {
     "dev": "webpack --mode development --watch",
-    "build": "webpack --mode production",
+    "build": "webpack --mode production --optimize-minimize",
     "test": "test"
   },
   "author": "Gerardo Gallegos <puxerop@gmail.com>",
@@ -24,9 +24,12 @@
     "webpack-cli": "^3.3.11"
   },
   "peerDependencies": {
-    "react": "^16.4.0"
+    "react": "^16.4.0",
+    "prop-types": "^15.7.2"
   },
-  "dependencies": {},
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  },
   "standard": {
     "parser": "babel-eslint"
   },
